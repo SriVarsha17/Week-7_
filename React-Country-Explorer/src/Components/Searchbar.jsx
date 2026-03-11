@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react"
-function SearchBar({ onSearch }) {
+function Searchbar({ onSearch }) {
   const inputRef = useRef()
 
   useEffect(() => {
@@ -17,4 +17,4 @@ function SearchBar({ onSearch }) {
   )
 }
 
-export default SearchBar
+export default Searchbar
