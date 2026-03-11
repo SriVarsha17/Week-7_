@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import SearchBar from "./components/Searchbar"
+import Searchbar from "./components/Searchbar"
 import CountryList from "./components/CountryList"
 function App() {
   const [countries, setCountries] = useState([])
@@ -34,7 +34,7 @@ function App() {
         Country Explorer
       </h1>
 
-      <SearchBar onSearch={setQuery} />
+      <Searchbar onSearch={setQuery} />
 
       {loading && <p className="text-center mt-4">Loading...</p>}
       {error && <p className="text-center text-red-600">{error}</p>}
