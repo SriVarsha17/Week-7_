@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import Searchbar from "./components/Searchbar"
-import CountryList from "./components/CountryList"
+import Searchbar from "./Components/Searchbar"
+import CountryList from "./Components/CountryList"
 function App() {
   const [countries, setCountries] = useState([])
   const [filtered, setFiltered] = useState([])
